@@ -121,10 +121,12 @@ body {
     color: #FFFFFF;
     padding: 1vw;
     border-radius: 9999999px;
+    border-color: #0d0c22;
 }
 
 #right-nav button:hover {
     background-color: #565564;
+    border-color: #0D0C22;
 }
 
 #des {
@@ -237,8 +239,10 @@ body {
     color: #FFFFFF;
     padding: 1vw;
     border-radius: 9999999px;
+    border-color: #0D0C22;
 }
 
 .start:hover{
     background-color:#565564 ;
+    border-color: #0D0C22;
 }
