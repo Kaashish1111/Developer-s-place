@@ -246,3 +246,28 @@ body {
     background-color:#565564 ;
     border-color: #0D0C22;
 }
+
+#auto-scroller{
+    margin-top: 4vh;
+    /* background-color: red; */
+    width: 100%;
+    height: 50vh;
+    padding: 2vh;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    background-color: blue;
+    width: 32vh;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#auto-scroller::-webkit-scrollbar{
+    display: none;
+}
