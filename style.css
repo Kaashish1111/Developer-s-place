@@ -220,21 +220,21 @@ body {
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: #0d0c22;
-    line-height:36px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    font-weight:500;
-    font-style:normal;
-    font-variant:normal;
+    line-height: 36px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
     text-transform: none;
-    text-decoration:none solid rgb(13, 12, 34);
-    text-align:none;
-    text-indent:0px;
+    text-decoration: none solid rgb(13, 12, 34);
+    text-align: none;
+    text-indent: 0px;
     margin-bottom: 6vh;
 }
 
-.start{
+.start {
     background-color: #0D0C22;
     color: #FFFFFF;
     padding: 1vw;
@@ -242,12 +242,12 @@ body {
     border-color: #0D0C22;
 }
 
-.start:hover{
-    background-color:#565564 ;
+.start:hover {
+    background-color: #565564;
     border-color: #0D0C22;
 }
 
-#auto-scroller{
+#auto-scroller {
     margin-top: 4vh;
     /* background-color: red; */
     width: 100%;
@@ -260,7 +260,8 @@ body {
     gap: 30px;
     scroll-behavior: smooth;
 }
-.elem{
+
+.elem {
     flex-shrink: 0;
     height: 100%;
     /* background-color: blue; */
@@ -269,12 +270,59 @@ body {
     border-radius: 40px;
     overflow: hidden;
 }
-#auto-scroller::-webkit-scrollbar{
+
+#auto-scroller::-webkit-scrollbar {
     display: none;
 }
-.elem img{
+
+.elem img {
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+#heading {
+    height: 10vh;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 4vh;
+    margin-top: 10vh;
+}
+
+#heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family:"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:48px;
+}
+#explore{
+    overflow-x: hidden;
+}
+#explore-div{
+    margin-top: 5vh;
+    padding: 5vw;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#box{
+    flex-shrink: 0;
+    height: 30vh;
+    width: 20vw;
+    /* background-color: red; */
+    border-radius: 20px;
+    margin: 30px;
+    gap: 30px;
+}
+#box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
