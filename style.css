@@ -96,3 +96,29 @@ body {
 #serach i{
     color: #A1A2A9;
 }
+.input-search::placeholder{
+    color: #A1A2A9;
+}
+#right-nav h3{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #0d0c22;
+    font-weight: 600;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(13, 12, 34);
+    text-align:none solid rgb(13, 12, 34);
+    text-indent:0px;
+}
+
+#right-nav button{
+    background-color: #0D0C22;
+    color: #FFFFFF;
+    padding:1vw;
+    border-radius: 9999999px;
+}
+
+#right-nav button:hover{
+    background-color:#565564;
+}
