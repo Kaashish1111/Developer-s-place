@@ -263,11 +263,18 @@ body {
 .elem{
     flex-shrink: 0;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     width: 32vh;
-    border: 1px solid black;
-    border-radius: 20px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    overflow: hidden;
 }
 #auto-scroller::-webkit-scrollbar{
     display: none;
+}
+.elem img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
 }
