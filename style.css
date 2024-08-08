@@ -56,15 +56,15 @@ body {
     font-size: 14px;
     color: #0d0c22;
     font-weight: 600;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(13, 12, 34);
-    text-align:none solid rgb(13, 12, 34);
-    text-indent:0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(13, 12, 34);
+    text-align: none solid rgb(13, 12, 34);
+    text-indent: 0px;
 }
 
-#right-nav{
+#right-nav {
     /* background-color: yellow; */
     width: 33%;
     display: flex;
@@ -74,8 +74,7 @@ body {
     padding: 1vw;
 }
 
-#serach
-{
+#serach {
     padding: 1vw;
     width: 100%;
     height: 100%;
@@ -83,42 +82,108 @@ body {
     /* border: 2px solid #F7EAF2; */
     background-color: #FFFFFF;
 }
-#serach:hover{
+
+#serach:hover {
     border: 2px solid #F7EAF2;
 }
-.input-search{
+
+.input-search {
     border: none;
     outline: none;
     background: transparent;
     color: #A1A2A9;
     text-decoration-color: #A1A2A9;
 }
-#serach i{
+
+#serach i {
     color: #A1A2A9;
 }
-.input-search::placeholder{
+
+.input-search::placeholder {
     color: #A1A2A9;
 }
-#right-nav h3{
+
+#right-nav h3 {
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #0d0c22;
     font-weight: 600;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(13, 12, 34);
-    text-align:none solid rgb(13, 12, 34);
-    text-indent:0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(13, 12, 34);
+    text-align: none solid rgb(13, 12, 34);
+    text-indent: 0px;
 }
 
-#right-nav button{
+#right-nav button {
     background-color: #0D0C22;
     color: #FFFFFF;
-    padding:1vw;
+    padding: 1vw;
     border-radius: 9999999px;
 }
 
-#right-nav button:hover{
-    background-color:#565564;
+#right-nav button:hover {
+    background-color: #565564;
+}
+
+#des {
+    background-color: aqua;
+    width: 100%;
+    height: 80%;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#des button {
+    margin-top: 2vh;
+    font-family: "Source Serif 4";
+    color:#0d0c22;
+    font-size: 3vh;
+    line-height: 6px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 99999999px;
+    animation-name: color-change;
+    animation-duration: 32s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    width: 35%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-color: transparent;
+    height: 7%;
+    text-align: center;
+}
+@keyframes color-change {
+    0%{
+        background-color: #ffda79;
+    }
+    25%{
+        background-color: #ffabe7;
+    }
+    50%{
+        background-color: #d2bcf3;
+    }
+    75%{
+        background-color: #edf3d8;
+    }
+    100%{
+        background-color: #ffda79;
+    }
 }
